@@ -6,7 +6,7 @@ Template Name: Publicaciones Personalizadas
 
 <?php get_header(); ?>
 
-<div class="container mt-4">
+<div class="container h100 mt-4">
     <h1 class="mb-4">Publicaciones Personalizadas</h1>
     <div class="row">
         <?php

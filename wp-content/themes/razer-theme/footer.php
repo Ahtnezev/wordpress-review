@@ -13,7 +13,7 @@
         <p>&copy; <?php echo date("Y"); ?> - Mi Sitio Web. Todos los derechos reservados.</p>
         <nav>
             <a href="<?php echo home_url('/politica-de-privacidad'); ?>" class="text-white">Política de Privacidad</a> |
-            <a href="<?php echo home_url('/contacto'); ?>" class="text-white">Contacto</a>
+            <a href="<?php echo home_url('/contact'); ?>" class="text-white">Contacto</a>
         </nav>
     </div>
 </footer>
