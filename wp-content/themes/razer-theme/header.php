@@ -6,15 +6,10 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<!-- <header>
-    <nav>
-        <?php wp_nav_menu(array('theme_location' => 'razer_menu')); ?>
-    </nav>
-</header> -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="<?php echo home_url(); ?>">Mi Sitio</a>
+        <a class="navbar-brand" href="<?php echo home_url(); ?>"><?= get_bloginfo('name') ?> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal">
             <span class="navbar-toggler-icon"></span>
         </button>

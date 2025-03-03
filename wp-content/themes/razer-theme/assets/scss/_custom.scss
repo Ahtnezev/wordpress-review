@@ -1,0 +1,8 @@
+@use "colours" as c;
+
+.title {
+    // border: 1px solid c.$primary;
+    color: c.$primary;
+    font-size: 3.75rem;
+}
+
