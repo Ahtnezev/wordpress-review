@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch assets/scss/style.scss:assets/css/style.css",
-    "build-css": "sass assets/scss/style.scss css/style.min.css --style=compressed"
+    "sass": "sass --watch assets/scss/app.scss:assets/css/style.css",
+    "build-css": "sass assets/scss/app.scss css/style.min.css --style=compressed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
     "sass": "^1.85.1"
   },
   "dependencies": {
