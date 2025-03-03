@@ -1,0 +1,17 @@
+@use 'variables';
+
+.navbar {
+    #menu-principal {
+        .navbar-nav {
+            .nav-item.dropdown {
+                ul.dropdown-menu {
+                    .nav-item {
+                        .nav-link {
+                            color: variables.$dark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

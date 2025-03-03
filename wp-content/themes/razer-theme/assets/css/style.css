@@ -1,0 +1,13 @@
+.navbar #menu-principal .navbar-nav .nav-item.dropdown ul.dropdown-menu .nav-item .nav-link {
+  color: #292929;
+}
+
+.policy {
+  border: 2px dashed orange;
+  padding: 1rem;
+}
+.policy h1 {
+  border-bottom: 1px dashed;
+}
+
+/*# sourceMappingURL=style.css.map */
